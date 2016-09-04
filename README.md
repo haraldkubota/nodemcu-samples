@@ -18,8 +18,11 @@ Data sheets for all used chips are readily available on the Internet. You'll nee
 * To run: dofile("lcd_clock")
 * Can be run as init.lua
 
+### Photos
+* https://goo.gl/photos/9bFZxCHkD5r92GBU8
+
 ## Thanks
 
-* http://www.esp8266-projects.com/2015/03/display-time-st7032i-i2c-lcd-display.html for the ST7032i module. I was wondering why my own module did not work, so I was glad to find a working module. In the end it turned out that /RESET needed to be connected before the display I had would display anything.
+* http://www.esp8266-projects.com/2015/03/display-time-st7032i-i2c-lcd-display.html for the ST7032i module. I was wondering why my own module did not work, so I was glad to find a working module. In the end it turned out that /RESET needed to be connected before the display which I had would display anything.
 
 
