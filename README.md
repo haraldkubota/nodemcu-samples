@@ -11,15 +11,22 @@ Data sheets for all used chips are readily available on the Internet. You'll nee
 * LCD with ST7032i (http://strawberry-linux.com/catalog/items?code=27003)
 * NodeMCU I2C connections: D2=SDA, D1=SCL
 * 3.3V and GND from NodeMCU modules to Vcc of both the RTC module and the I2C LCD
-
 ### Requirements
-* i2clib, rtc8583 and st7032i and lcd_clock
+* Modules: i2clib, rtc8583 and st7032i and lcd_clock
 * NodeMCU firmware needs I2C module. I use 1.5.4 with floating point
 * To run: dofile("lcd_clock")
 * Can be run as init.lua
-
 ### Photos
 * https://goo.gl/photos/9bFZxCHkD5r92GBU8
+
+## pcf8574test.lua
+### Hardware Requirements
+* PCF8574A at I2C address 0x38
+* LEDs connected to the output pins of the PCF8574A (LED's lit when logic level is 0)
+
+### Requirements
+* Modules: pcf8574
+* To run: dofile("pcf8574test")
 
 ## Thanks
 
