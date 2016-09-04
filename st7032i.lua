@@ -1,5 +1,7 @@
 -- ST7032i LCD (16x2 in my case)
 -- needs i2clib set via i2clib=require("i2clib")
+-- See also http://www.esp8266-projects.com/2015/03/display-time-st7032i-i2c-lcd-display.html
+-- where most logic code comes from
 
 local M = {}
 
